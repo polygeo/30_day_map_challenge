@@ -2,6 +2,10 @@
 
 This repo tracks maps for the [30 day map challenge](https://30daymapchallenge.com/).
 
+Here's an example map for Day 1 that shows all the swimming pools for the Mill Basin, Brooklyn neighborhood of New York City:
+
+![NYC Swimming Pools](images/day01_mp_points.png)
+
 Feel free to get involved and submit pull requests if you would like to contribute.
 
 ## How to run notebooks
@@ -10,7 +14,7 @@ You should be able to install the required project dependencies and run all of t
 
 Here's how to get setup with `uv` for example (similar setup instructions for other package managers):
 
-* `uv pip install -f pyproject.toml`
+* `uv pip install -r pyproject.toml`
 * `uv run jupyter lab`
 
 ## How to contribute
