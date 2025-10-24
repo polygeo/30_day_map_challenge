@@ -1,7 +1,7 @@
 [project]
 name = "30-day-map-challenge"
 version = "0.1.0"
-description = "Add your description here"
+description = "Notebooks for the 30 day map challenge"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
