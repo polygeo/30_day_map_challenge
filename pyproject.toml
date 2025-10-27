@@ -14,5 +14,6 @@ dependencies = [
     "matplotlib",
     "palettable",
     "deltalake",
-    "giso"
+    "giso",
+    "overturemaps"
 ]

@@ -17,6 +17,7 @@ dependencies = [
     { name = "jupyter" },
     { name = "lonboard" },
     { name = "matplotlib" },
+    { name = "overturemaps" },
     { name = "palettable" },
     { name = "pandas" },
     { name = "pyspark" },
@@ -31,6 +32,7 @@ requires-dist = [
     { name = "jupyter" },
     { name = "lonboard" },
     { name = "matplotlib" },
+    { name = "overturemaps" },
     { name = "palettable" },
     { name = "pandas" },
     { name = "pyspark", specifier = "==3.5.7" },
@@ -1661,6 +1663,21 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/f8/73/f85056701dbbbb910c51d846c58d29fd46b30eecd2b6ba760fc8b8a1641b/numpy-2.3.4-cp314-cp314t-win32.whl", hash = "sha256:863e3b5f4d9915aaf1b8ec79ae560ad21f0b8d5e3adc31e73126491bb86dee1d", size = 6485782 },
     { url = "https://files.pythonhosted.org/packages/17/90/28fa6f9865181cb817c2471ee65678afa8a7e2a1fb16141473d5fa6bacc3/numpy-2.3.4-cp314-cp314t-win_amd64.whl", hash = "sha256:962064de37b9aef801d33bc579690f8bfe6c5e70e29b61783f60bcba838a14d6", size = 13113301 },
     { url = "https://files.pythonhosted.org/packages/54/23/08c002201a8e7e1f9afba93b97deceb813252d9cfd0d3351caed123dcf97/numpy-2.3.4-cp314-cp314t-win_arm64.whl", hash = "sha256:8b5a9a39c45d852b62693d9b3f3e0fe052541f804296ff401a72a1b60edafb29", size = 10547532 },
+]
+
+[[package]]
+name = "overturemaps"
+version = "0.17.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "click" },
+    { name = "numpy" },
+    { name = "pyarrow" },
+    { name = "shapely" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/b7/5a/633cca2c886cc2395cb2fa9a9a29dabe1b32579ecbd750615e5290cf6989/overturemaps-0.17.0.tar.gz", hash = "sha256:b3cff25777a7792b1080af2f26a84406889d80bbabcfce17812eea8ae2d63844", size = 10621 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/7b/f5/9f71eb39da2ecc82eb205038b1211260ed593e153841e9d51c60990fcd68/overturemaps-0.17.0-py3-none-any.whl", hash = "sha256:c3cf9a84ae9629e24b1e3f923a096032e6bff9598c6417f85f12ddaa54df5ed0", size = 11123 },
 ]
 
 [[package]]
