@@ -15,5 +15,6 @@ dependencies = [
     "palettable",
     "deltalake",
     "giso",
-    "overturemaps"
+    "overturemaps",
+    "wkls"
 ]
